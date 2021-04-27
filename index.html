@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>3D</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/montserrat-medium.woff2" as="font" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <main>
+    <div class="product-slider__big">
+      <div class="mySpriteSpin swiper-slide-active"></div>
+    </div>
+    <!-- <div class="img-zoom-container">
+      <img id="myimage" src="img/0_0.jpg" width="300" height="240" alt="Girl">
+      <div id="myresult" class="img-zoom-result"></div>
+    </div>
+    <button class="zoom-button" type="button">Увеличить</button>
+    <button class="three-d-button" type="button">Вернуться к 3D</button> -->
+  </main>
+
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement("picture");
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/spritespin@x.x.x/release/spritespin.js" type="text/javascript"></script>
+  <!-- <script src="js/imagezoom.js"></script> -->
+  <script type="text/javascript">
+    $(".mySpriteSpin").spritespin({
+      // path to the source images.
+      source: [
+        "img/0_0.jpg",
+        "img/1_0.jpg",
+        "img/2_0.jpg",
+        "img/3_0.jpg",
+        "img/4_0.jpg",
+        "img/5_0.jpg",
+        "img/6_0.jpg",
+        "img/7_0.jpg",
+        "img/8_0.jpg",
+        "img/9_0.jpg",
+        "img/10_0.jpg",
+        "img/11_0.jpg",
+        "img/12_0.jpg",
+        "img/13_0.jpg",
+        "img/14_0.jpg",
+        "img/15_0.jpg",
+        "img/16_0.jpg",
+        "img/17_0.jpg",
+        "img/18_0.jpg",
+        "img/19_0.jpg",
+        "img/20_0.jpg",
+        "img/21_0.jpg",
+        "img/22_0.jpg",
+        "img/23_0.jpg",
+        "img/24_0.jpg",
+        "img/25_0.jpg",
+        "img/26_0.jpg",
+        "img/27_0.jpg",
+        "img/28_0.jpg",
+        "img/29_0.jpg",
+        "img/30_0.jpg",
+        "img/31_0.jpg",
+        "img/32_0.jpg",
+        "img/33_0.jpg",
+        "img/34_0.jpg",
+        "img/35_0.jpg",
+      ],
+      width: 480, // width in pixels of the window/frame
+      height: 680, // height in pixels of the window/frame
+      animate: false,
+    });
+  </script>
+
+  <script src="js/vendors.js"></script>
+  <!-- <script>
+    imageZoom("myimage", "myresult");
+  </script> -->
+</body>
+
+</html>
